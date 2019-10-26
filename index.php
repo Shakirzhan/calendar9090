@@ -91,7 +91,7 @@
       max-width: 900px;
       }
     </style>
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
   </head>
   <body>
     <div class="cell-calendar">
