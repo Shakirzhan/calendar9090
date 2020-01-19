@@ -47,7 +47,7 @@ buiCalendarControlNext.onclick = function() {
 		m.innerText = txt;
 	}
 	dateDisplay(txt - 1);
-	c.innerHTML = getDate(txt, 2019);
+	c.innerHTML = getDate(txt, 2020);
 
 	var table = q("table");
 	table.addEventListener("click", clTable);
@@ -62,14 +62,14 @@ buiCalendarControlPrev.onclick = function() {
 		m.innerText = txt;
 	}
 	dateDisplay(txt - 1);
-	c.innerHTML = getDate(txt, 2019);
+	c.innerHTML = getDate(txt, 2020);
 
 	var table = q("table");
 	table.addEventListener("click", clTable);
 	get_num();
 }
 
-c.innerHTML = getDate( date.getMonth() + 1 , 2019);
+c.innerHTML = getDate( date.getMonth() + 1 , 2020);
 
 get_num();
 
@@ -99,7 +99,7 @@ function clTable(e) {
 }
 
 function dateDisplay(txt) {
-	var date = new Date( 2019, txt, 1 ),
+	var date = new Date( 2020, txt, 1 ),
 			strDate = '' + date,
 			strDate = strDate.split(' '),
 			monthStr = capitalizeFirstLetter( monthGlobal[ strDate[1] ] );
